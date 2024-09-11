@@ -1,6 +1,6 @@
 const socket = io('ws://localhost:3500')
 const activity = document.querySelector('.activity')
-const msgInput = document.querySelector('input');
+const msgInput = document.querySelector('#message');
 
 function sendMessage(e) {
     e.preventDefault()
